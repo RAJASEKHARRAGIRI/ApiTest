@@ -19,7 +19,7 @@ Design the endpoints how you would like them to be in terms of validation, patte
  - Do not change the routes for the endpoints or the contracts.
  - An InMemory DB Context is provided already to save, update, and get products. Feel free to change this as desired.
  - Please use GIT and commit your code as you would like it to be.
- - Return the test without the bin/obj folders to andikat.jacobdennis@searchspring.com with the code zipped or in a link to a github.
+ - Return the test without the bin/obj folders to ragirirajasekhar@gmail.com with the code zipped or in a link to a github.
  - In the email returning the test please send with it with one of your favourite TV shows.
 
 # How the endpoints should work
