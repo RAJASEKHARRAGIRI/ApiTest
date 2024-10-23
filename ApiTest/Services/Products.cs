@@ -16,7 +16,7 @@ namespace ApiTest.Services
 
         public async Task<IEnumerable<Product>> GetAllProducts(string productName = "", string category = "")
         {
-            if (productName.Length > 0)
+            if (productName.Length > 0 || category.Length > 0)
             {
                 var p =  await _context.Products.ToListAsync();
                 return p.Where(x => (x.Name.Contains(productName) || x.Category.Contains(category)));
